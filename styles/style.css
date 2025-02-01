@@ -75,7 +75,6 @@ img {
 
 .title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  text-shadow: var(--bg-color);
   --text-color:  var(--accent-color);
   color: var(--text-color);
   font-weight: 700;
@@ -252,6 +251,7 @@ h2.title-decor {
 
   .title {
     margin-inline-start: 0;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .decorated-zone::before {
@@ -267,10 +267,6 @@ h2.title-decor {
   .rec {
     top: 29px;
     right: 29px;
-  }
-
-  .title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .title-description {
