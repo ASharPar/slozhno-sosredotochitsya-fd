@@ -17,15 +17,3 @@
     --border-color: #FF007066;
     --bg-image: url(../images/cover-image-dark.png);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-      --bg-color: #FF0070;
-      --title-color: #FF0070;
-      --text-color: #F1B2CE;
-      --text-color-black: #000028;
-      --accent-color: #DB00FF;
-      --border-color: #FF007066;
-      --bg-image: url(../images/cover-image-dark.png);
-  }
-}
