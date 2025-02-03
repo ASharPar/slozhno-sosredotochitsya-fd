@@ -17,3 +17,7 @@
     --border-color: #FF007066;
     --bg-image: url(../images/cover-image-dark.png);
 }
+
+.theme-dark .rec {
+  display: block;
+}
